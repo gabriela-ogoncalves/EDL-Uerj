@@ -1,5 +1,5 @@
 (* 
-   Programa simples escrito em OCaml, exemplificando as funções polimórficas padrões da biblioteca.
+   Programa simples escrito em OCaml, exemplificando as funções polimórficas da biblioteca padrão.
    List.length --> recebe uma lista de qualquer tipo e retorna o seu tamanho.
    List.hd --> recebe uma lista de qualquer tipo e retorna o primeiro elemento de cada uma. 
 *)
