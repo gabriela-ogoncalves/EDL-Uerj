@@ -9,7 +9,7 @@ and insert elem = function
       else x :: insert elem l;;
 
 (* Aqui chamaremos a função, passando diferentes tipos de listas. 
-A função paramétrica "sort" atuará da mesma forma para cada um dos tipos. *)
+A função polimórfica "sort" atuará da mesma forma para cada um dos tipos. *)
 sort [5; 4; 10; 6; 2; 1; 0];;
 sort ["g";"a";"b";"r";"i";"e";"l";"a"];;
 sort [1.0; 1.5; 1.3; 1.9; 1.2; 1.1; 1.7];;
