@@ -19,8 +19,8 @@ O terceiro exemplo diz respeito a função **last** que espera uma lista como en
 O próprio programa retona o valor das expressões utilizadas no código (isso será importante para entender todos os exemplos deste repositório). 
 
 A regra de ouro de OCaml é entender que
-    - cada expressão OCaml tem um valor;
-    - cada expressão OCaml tem um e um só tipo.
+- cada expressão OCaml tem um valor;
+- cada expressão OCaml tem um e um só tipo.
 
 É importante saber também que 'a é uma variável de tipo. Isso significa que ela é uma forma genérica de representar qualquer tipo de dado, ou seja, pode ser substituída por qualquer tipo da linguagem (int, float, string, char...). Em OCaml, esse dado é geralmente denominado 'a, 'b, 'c etc. 
 
