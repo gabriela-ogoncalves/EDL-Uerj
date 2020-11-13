@@ -10,7 +10,7 @@ Uma função é polifórmica se ela puder receber qualquer tipo de dado da lingu
 
 Na imagem abaixo temos alguns exemplos e a forma como OCaml retorna seus valores. 
 
-![](https://github.com/gabriela-ogoncalves/EDL-Uerj/blob/main/exemplo.png)
+<div align="center"> <img src="https://github.com/gabriela-ogoncalves/EDL-Uerj/blob/main/exemplo.png"> </div>
 
 **List.length** e **List.hd** são funções polimórmicas da biblioteca padrão. A primeira retorna o tipo e tamanho da lista passada, enquanto a segunda retorna o tipo e primeiro elemento de cada lista. Perceba que, independente do tipo da entrada, as funções funcionam da mesma forma para o dado passado. 
 
@@ -32,4 +32,4 @@ val last : 'a list -> 'a option = <fun>
 
 Tradução: last é uma função. Para qualquer tipo de 'a, last recebe uma lista de 'a como parâmetro e retorna uma um elemento do tipo 'a option. As options representam valores indefinidos (None) ou um valor qualquer (Some) do tipo 'a.
 
-O fato de os tipos dos elementos não precisarem ser especificados, mas sim representados pela variável de tipo 'a faz com que a função last possa ser aplicada tanto a uma lista de inteiros quanto a uma lista de strings, conforme o exemplo apresentado. E isso se deve ao polimorfismo paramétrico, funcionalidade de alta expressividade de OCaml.
+O fato de os tipos dos elementos não precisarem ser especificados, mas sim representados pela variável de tipo 'a faz com que a função last possa ser aplicada tanto a uma lista de float quanto a uma lista de char, conforme o exemplo apresentado. E isso se deve ao polimorfismo paramétrico, funcionalidade de alta expressividade de OCaml.
