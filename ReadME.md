@@ -10,7 +10,7 @@ Uma função é polifórmica se ela puder receber qualquer tipo de dado da lingu
 
 Na imagem abaixo temos alguns exemplos e a forma como OCaml retorna seus valores. 
 
-![]https://github.com/gabriela-ogoncalves/EDL-Uerj/blob/main/exemplo.png)
+![](https://github.com/gabriela-ogoncalves/EDL-Uerj/blob/main/exemplo.png)
 
 **List.length** e **List.hd** são funções polimórmicas da biblioteca padrão. A primeira retorna o tipo e tamanho da lista passada, enquanto a segunda retorna o tipo e primeiro elemento de cada lista. Perceba que, independente do tipo da entrada, as funções funcionam da mesma forma para o dado passado. 
 
